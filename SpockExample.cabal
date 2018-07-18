@@ -31,10 +31,15 @@ library
   build-depends:
       base >=4.7 && <5
     , containers
+    , monad-logger
     , mtl
+    , persistent
+    , persistent-sqlite
+    , persistent-template
     , Spock
     , text
   exposed-modules:
+      Schema
       Server
   other-modules:
       Paths_SpockExample
